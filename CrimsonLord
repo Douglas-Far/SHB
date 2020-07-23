@@ -195,7 +195,9 @@
 			"header": 2,
 			"entries": [
 				"Beginning at 14th level, when you hit a creature with a Warlock spell that isn't a cantrip, you can sacrifice 5 hit points to deal additional force damage. The damage is 1d10 for the first 5 hit points sacrificed, plus 1d10 for every 5 additional hit points expent, up to a maximum of 5d10"
-			],
+			]
 		}
 	]
+}
+]
 }
