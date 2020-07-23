@@ -86,19 +86,19 @@
 				"The Oath of the Planes binds a paladin to the fragile balance of good and evil in the multiverse. Unlike many Sacred Oaths, which commit paladins to narrow, unflinching ideals, this Oath implores them to view the greater tapestry. These paladins see that, just like the concept that light cannot exist without darkness, neither can the forces of good exist without the forces of evil; without the proper balance, the entirety of existence would unravel. To ensure this never occurs, these paladins — often called planeswalkers, gray knights, or portal knights — travel the planes of the multiverse, immersing themselves in dimensional magics and the boundaries of reality to maintain balance ",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of The Planes|Paladin||Planes|OathOfThePlanes|3"
+					"subclassFeature": "Tenets of The Planes|Paladin||Planes|SHB|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin||Planes|OathOfThePlanes|3"
+					"subclassFeature": "Oath Spells|Paladin||Planes|SHB|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Extradimensional Detention|Paladin||Planes|OathOfThePlanes|3"
+					"subclassFeature": "Channel Divinity: Extradimensional Detention|Paladin||Planes|SHB|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Portal Strike|Paladin||Planes|OathOfThePlanes|3"
+					"subclassFeature": "Channel Divinity: Portal Strike|Paladin||Planes|SHB|3"
 				}
 			]
 		},
