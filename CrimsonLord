@@ -25,11 +25,11 @@
 			"name": "The Crimson Lord",
 			"source": "CrimsonLord",
 			"subclassFeatures": [
-				"The Crimson Lord|Warlock||Crimson Lord|CL|1",
-				"Blood is Power|Warlock||Crimson Lord|CL|1",
-				"Blood Hex|Warlock||Crimson Lord|CL|6",
-				"Blood Siphon|Warlock||Crimson Lord|CL|10",
-				"Exsanguination|Warlock||Crimson Lord|CL|14"
+				"The Crimson Lord|Warlock||Crimson Lord|CrimsonLord|1",
+				"Blood is Power|Warlock||Crimson Lord|CrimsonLord|1",
+				"Blood Hex|Warlock||Crimson Lord|CrimsonLord|6",
+				"Blood Siphon|Warlock||Crimson Lord|CrimsonLord|10",
+				"Exsanguination|Warlock||Crimson Lord|CrimsonLord|14"
 			],
 			"shortName": "Crimson Lord",
 			"spells": [
