@@ -16,8 +16,6 @@
 				"color": "acfafa"
 			}
 		],
-		"dateAdded": 1578188666,
-		"dateLastModified": 1580933076,
 	},
 	"subclass": [
 		{
@@ -31,58 +29,6 @@
 				"Exsanguination|Warlock||Crimson|CrimsonLord|14"
 			],
 			"shortName": "Crimson",
-			"spells": [
-				{
-					"expanded": {
-						"1": [
-							"Inflict Wounds",
-							"Ray of Sickness"
-						],
-						"2": [
-							"Blur",
-							"Blindness/Deafness"
-						],
-						"3": [
-							"Feign Death",
-							"Nondetection"
-						],
-						"4": [
-							"Death Ward",
-							"Phantasmal Killer"
-						],
-						"5": [
-							"Dominate Person",
-							"Modify Memory"
-						]
-					}
-				}
-			],
-			"additionalSpells": [
-				{
-					"expanded": {
-						"1": [
-							"Inflict Wounds",
-							"Ray of Sickness"
-						],
-						"2": [
-							"Blur",
-							"Blindness/Deafness"
-						],
-						"3": [
-							"Feign Death",
-							"Nondetection"
-						],
-						"4": [
-							"Death Ward",
-							"Phantasmal Killer"
-						],
-						"5": [
-							"Dominate Person",
-							"Modify Memory"
-						]
-					}
-				}
-			],
 			"className": "Warlock",
 			"classSource": "PHB"
 		}
