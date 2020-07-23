@@ -1,17 +1,11 @@
 {
 			"feat": [
-							{	
-									"name": "The Ocelot's Technique",
-									"source": "SHB",
-									"Prerequisite": [
-										{
-											"Proficiency": [
-												{
-													"weapon": "firearm"
-													}
-												]
-											}
-										],
+							{
+									"entries": [
+											"Prerequisite: Proficiency with firearms.", true
+											]
+										},
+							{
 									"entries": [
 													" You uncover the techniques of the legendary gunslinger: The Ocelot. An imperial quadruple agent whose sole purpose in life was to look cool by doing imposible shots with his firearms. You gain the following benefits:",
 													{
