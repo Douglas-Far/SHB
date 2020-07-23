@@ -150,7 +150,7 @@
 			"subclassShortName": "Crimson",
 			"subclassSource": "CrimsonLord",
 			"level": 1,
-			"header": 1
+			"header": 1,
 			"entries": [
 				"You are able to replace blood by infusing it with arcane energy that you may use later. At 1st level, as a ritual that takes 1 hour you may sacrifice hit points equal to twice the level of your current Warlock spell slot to gain an additional Warlock spell slot of that level. The amount of extra spell slots you may make is equal to the maximun amount of Warlock spell slots available to you. While you have these additional spell slots your hit point maximum is reduced by an amount equal to the hit points spent. These spell slots last until they are spent or you take a long rest."
 			]
