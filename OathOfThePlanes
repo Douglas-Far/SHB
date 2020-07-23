@@ -81,7 +81,6 @@
 	"subclassFeature": [{
 			"name": "Oath of the Planes",
 			"source": "OathOfThePlanes",
-			"page": 82,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Planes",
@@ -144,7 +143,6 @@
 				}
 			],
 			"source": "OathOfThePlanes",
-			"page": 82,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Planes",
@@ -193,7 +191,6 @@
 				}
 			],
 			"source": "OathOfThePlanes",
-			"page": 82,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Planes",
@@ -208,7 +205,6 @@
 				"You can use your Channel Divinity to temporarily trap a foe in an extradimensional space. As an action, you open a portal behind a hostile creature within 5 feet of you that is Large or smaller and attempt to push the creature into it. The target must succeed on a Strength saving throw or be trapped in the extradimensional space for 1 minute, or until you lose concentration (as though concentrating on a spell). During that time, it still takes its turns as normal, but it is unaffected by and can’t affect events in the plane from which it was banished. At the end of each of the creature’s turns, it can make a Charisma saving throw, escaping the extradimensional space on a success. When the creature escapes or the duration ends, the portal reopens on the space the creature previously occupied and the creature is expelled into the nearest unoccupied space.."
 			],
 			"source": "OathOfThePlanes",
-			"page": 82,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Planes",
@@ -223,7 +219,6 @@
 				"As an action, you can imbue one melee weapon you’re holding with the ability to rip through dimensional boundaries, using your Channel Divinity. For 1 minute, your reach with the weapon increases to 30 feet, creating portals through which to strike the target as you attack. The portals close immediately following the attack. As long as you can see the target, attacks you make using the weapon ignore half and three-quarters cover."
 			],
 			"source": "OathOfThePlanes",
-			"page": 82,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Planes",
@@ -234,7 +229,6 @@
 		{
 			"name": "Aura of Dimensionality",
 			"source": "OathOfThePlanes",
-			"page": 82,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Planes",
@@ -263,7 +257,6 @@
 		{
 			"name": "Gate Guardian",
 			"source": "OathOfThePlanes",
-			"page": 82,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Planes",
@@ -277,7 +270,6 @@
 		{
 			"name": "Phase Shift",
 			"source": "OathOfThePlanes",
-			"page": 82,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Planes",
