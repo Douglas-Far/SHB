@@ -4,7 +4,7 @@
 		{
 			"json": "SHB",
 			"abbreviation": "SHB",
-			"full": "Skyfall Homebrew Book",
+			"full": "SHB",
 			"version": "1.0.0",
 			"targetSchema": "1.0.0"
 		}
@@ -76,7 +76,6 @@
 	{
 			"name": "Oath of the Planes",
 			"source": "SHB",
-			"page": 82,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Planes",
@@ -143,7 +142,6 @@
 				}
 			],
 			"source": "SHB",
-			"page": 82,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Planes",
@@ -192,7 +190,6 @@
 				}
 			],
 			"source": "SHB",
-			"page": 82,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Planes",
@@ -221,7 +218,6 @@
 				"As an action, you can imbue one melee weapon you’re holding with the ability to rip through dimensional boundaries, using your Channel Divinity. For 1 minute, your reach with the weapon increases to 30 feet, creating portals through which to strike the target as you attack. The portals close immediately following the attack. As long as you can see the target, attacks you make using the weapon ignore half and three-quarters cover."
 			],
 			"source": "SHB",
-			"page": 82,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Planes",
@@ -232,7 +228,6 @@
 		{
 			"name": "Aura of Dimensionality",
 			"source": "SHB",
-			"page": 82,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Planes",
@@ -261,7 +256,6 @@
 		{
 			"name": "Gate Guardian",
 			"source": "SHB",
-			"page": 82,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Planes",
@@ -275,7 +269,6 @@
 		{
 			"name": "Phase Shift",
 			"source": "SHB",
-			"page": 82,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Planes",
