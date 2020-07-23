@@ -1,0 +1,696 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "PHEW",
+				"abbreviation": "PHEW",
+				"full": "PHEW",
+				"version": "1.0.0",
+				"targetSchema": "1.0.0"
+			}
+		]
+	},
+	"class": [
+	{
+			"name": "Warlock",
+			"source": "PHEW",
+			"proficiency": [
+				"con",
+				"cha"
+			],
+			"spellcastingAbility": "cha",
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=Warlock}",
+						"{@filter Spells Known|spells|class=Warlock}",
+						"Spell Level",
+						"Simplex Invocations",
+						"Complex Invocations",
+						"Arcanum Invocations"
+					],
+					"rows": [
+						[
+							2,
+							2,
+							"{@filter 1st|spells|level=1|class=Warlock}",
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							3,
+							"{@filter 1st|spells|level=1|class=Warlock}",
+							2,
+							0,
+							0
+						],
+						[
+							2,
+							4,
+							"{@filter 2nd|spells|level=2|class=Warlock}",
+							2,
+							0,
+							0
+						],
+						[
+							3,
+							5,
+							"{@filter 2nd|spells|level=2|class=Warlock}",
+							2,
+							0,
+							0
+						],
+						[
+							3,
+							6,
+							"{@filter 3rd|spells|level=3|class=Warlock}",
+							2,
+							1,
+							0
+						],
+						[
+							3,
+							7,
+							"{@filter 3rd|spells|level=3|class=Warlock}",
+							2,
+							1,
+							0
+						],
+						[
+							3,
+							8,
+							"{@filter 4th|spells|level=4|class=Warlock}",
+							3,
+							1,
+							0
+						],
+						[
+							3,
+							9,
+							"{@filter 4th|spells|level=4|class=Warlock}",
+							3,
+							1,
+							0
+						],
+						[
+							3,
+							10,
+							"{@filter 5th|spells|level=5|class=Warlock}",
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							10,
+							"{@filter 5th|spells|level=5|class=Warlock}",
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							11,
+							"{@filter 5th|spells|level=5|class=Warlock}",
+							3,
+							2,
+							1
+						],
+						[
+							4,
+							11,
+							"{@filter 5th|spells|level=5|class=Warlock}",
+							3,
+							2,
+							1
+						],
+						[
+							4,
+							12,
+							"{@filter 5th|spells|level=5|class=Warlock}",
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							12,
+							"{@filter 5th|spells|level=5|class=Warlock}",
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							13,
+							"{@filter 5th|spells|level=5|class=Warlock}",
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							13,
+							"{@filter 5th|spells|level=5|class=Warlock}",
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							14,
+							"{@filter 5th|spells|level=5|class=Warlock}",
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							14,
+							"{@filter 5th|spells|level=5|class=Warlock}",
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							15,
+							"{@filter 5th|spells|level=5|class=Warlock}",
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							15,
+							"{@filter 5th|spells|level=5|class=Warlock}",
+							3,
+							3,
+							3
+						]
+					]
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"Arcana",
+								"Deception",
+								"History",
+								"Intimidation",
+								"Investigation",
+								"Nature",
+								"Religion"
+							],
+							"count":2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item light crossbow|PHEW} and {@item crossbow bolts (20)|PHEW|20 bolts} or (b) any {@filter simple weapon|items|source=phew|category=basic|type=simple weapon}",
+					"(a) a {@item component pouch|PHEW} or (b) an {@item arcane focus|PHEW}",
+					"(a) a {@item scholar's pack|PHEW} or (b) a {@item dungeoneer's pack|PHEW}",
+					"{@item Leather armor|PHEW}, any {@filter simple weapon|items|source=phew|category=basic|type=simple weapon}, and two {@item dagger|PHEW|daggers}"
+				],
+				"goldAlternative": "{@dice 4d4×10|4d4 × 10|Starting Gold}"
+			},
+			"multiclassing": {
+				"requirements": {
+					"cha": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light"
+					],
+					"weapons": [
+						"simple"
+					]
+				}
+			},
+			"classFeatures": [
+				[
+					{
+						"name": "Hit Points",
+						"entries": [
+							"{@b Hit Dice}: 1d8",
+							"{@b Hit Points at First Level}: 11",
+							"{@b Hit Points at Higher Levels}: {@dice 3 + 1d8}",
+							"{@b Expected Hit Points at Higher Levels}: 8",
+							"{@b Con Bonus to HP}: Proficiency Bonus x Constitution Modifier",
+							"If you obtain this feature from more than one class, it won't stack. Whenever you gain a level, you always gain the \"Hit Points at Higher Levels\" from the class you're gaining a level in.",
+							{
+								"type": "inset",
+								"name": "HP Recalculation values",
+								"entries": [
+									"If you have levels in more than one class, you must manually calculate your expected hit points. You should keep a tally of your expected hp total that you update every time you gain a level.",
+									"If you only have levels in this class, here's a quick reference for what your expected hp will be at the levels where {@variantrule HP Catch-Up|PHEW} happens:",
+									{
+										"type": "table",
+										"caption": "Expected HP",
+										"colLabels": ["Level","Expected HP"],
+										"colStyles": ["col-2 text-center","col-10"],
+										"rows": [
+											["5th","43 + 3 x Constitution modifier"],
+											["10th","83 + 4 x Constitution modifier"],
+											["15th","123 + 5 x Constitution modifier"],
+											["20th","163 + 6 x Constitution modifier"]
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "Pact Magic",
+						"entries": [
+							"Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See {@book chapter 10|PHEW|10} for the general rules of spellcasting and chapter 11 for the {@filter warlock spell list|spells|class=warlock}.",
+							{
+								"type": "entries",
+								"name": "Cantrips",
+								"entries": [
+									"You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Eldritch Blast",
+								"entries": [
+									"Your immersion in otherworldly energies allows you to unleash a blast of raw magical power. You learn the {@spell eldritch blast|PHEW} cantrip, which is a warlock cantrip for you and does not count toward your number of cantrips known.",
+									"When you cast eldritch blast as a warlock cantrip, you deal extra force damage equal to your warlock level + your Charisma modifier."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spell Slots",
+								"entries": [
+									"The Pact Magic feature doesn't give you access to spell slots, but if you have access to them through other means (such as multiclassing) you can use them to cast the Warlock spells you know like any other spellcasting class."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Pact Arcanum",
+								"entries": [
+									"Your patron bestows upon you a minor magical secret called an arcanum. This allows you to cast one of the 1st level spells you know. You gain an additional 2nd level arcanum at 3rd level, a 3rd level arcanum at 5th level, a 4th level arcanum at 7th level, and a 5th level arcanum at 9th level.",
+									"You regain all uses of your pact arcanum at the end of a short rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spells Known of 1st Level and Higher",
+								"entries": [
+									"At 1st level, you know two 1st-level spells of your choice from the warlock spell list.",
+									"The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what's shown in the table's Spell Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.",
+									"Additionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spellcasting Ability",
+								"entries": [
+									"Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.",
+									{
+										"type": "abilityDc",
+										"name": "Spell",
+										"attributes": [
+											"cha"
+										]
+									},
+									{
+										"type": "abilityAttackMod",
+										"name": "Spell",
+										"attributes": [
+											"cha"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spellcasting Focus",
+								"entries": [
+									"You can use an arcane focus (found in chapter 5) as a spellcasting focus for your warlock spells."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spell Versatility",
+								"entries": [
+									"Whenever you finish a long rest, you can replace one spell you learned from this Pact Magic feature with another spell from the warlock spell list. The new spell must be the same level as the spell you replace."
+								]
+							}
+						]
+					},
+					{
+						"name": "Otherworldly Patron",
+						"entries": [
+							"At 1st level, you have struck a bargain with an otherworldly being chosen from the list of available patrons. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Eldritch Invocations",
+						"entries": [
+							"In your study of occult lore, you have obtained fragments of forbidden power that imbue you with an abiding magical abilities called invocations.",
+							"An invocation is a spell, chosen from the table below, which you can cast without expending spell slots or material components. These spells are cast at their lowest level, and end immediately if they are cast again. If a spell targets one or more creatures, its range becomes self.",
+							"At 2nd level, you gain two simplex invocations of your choice. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Warlock table.",
+							"If you wish, your invocation can provide a spell associated with a lesser kind of invocation (e.g. a Complex Invocation could provide you with disguise self). When you gain a level in this class, you can choose one of the invocations you know and replace it with another of the same level.",
+							{
+								"type": "table",
+								"caption": "Invocations",
+								"colLabels": [
+									"Type",
+									"Invocations"
+								],
+								"colStyles": [
+									"col-1",
+									"col-3"
+								],
+								"rows": [
+									[
+										"Simplex",
+										"{@spell alarm|PHEW}, {@spell comprehend languages|PHEW}, {@spell continual flame|PHEW}, {@spell darkvision|PHEW}, {@spell detect magic|PHEW}, {@spell detect poison and disease|PHEW}, {@spell disguise self|PHEW}, {@spell enthrall|PHEW}, {@spell false life|PHEW}, {@spell grease|PHEW}, {@spell jump|PHEW}, {@spell illusory script|PHEW}, {@spell mage armor|PHEW}, {@spell magic mouth|PHEW}, {@spell meld into stone|PHEW}, {@spell nystul's magic aura|PHEW}, {@spell purify food and drink|PHEW}, {@spell silent image|PHEW}, {@spell speak with animals|PHEW}, {@spell unseen servant|PHEW}, {@spell water breathing|PHEW}"
+									],
+									[
+										"Complex",
+										"{@filter any cantrip|spells|level=0}, {@spell alter self|PHEW}, {@spell animal friendship|PHEW}, {@spell animal messenger|PHEW}, {@spell arcane lock|PHEW}, {@spell detect evil and good|PHEW}, {@spell feather fall|PHEW}, {@spell feign death|PHEW}, {@spell fog cloud|PHEW}, {@spell levitate|PHEW}, {@spell longstrider|PHEW}, {@spell phantom steed|PHEW}, {@spell spider climb|PHEW}, {@spell speak with dead|PHEW}, {@spell speak with plants|PHEW}, {@spell tenser's floating disk|PHEW}, {@spell tongues|PHEW}, {@spell water walk|PHEW}"
+									],
+									[
+										"Arcanum",
+										"{@spell arcane eye|PHEW}, {@spell barkskin|PHEW}, {@spell detect thoughts|PHEW}, {@spell enhance ability|PHEW} (one effect), {@spell expeditious retreat|PHEW}, {@spell fly|PHEW}, {@spell freedom of movement|PHEW}, {@spell gust of wind|PHEW}, {@spell hallucinatory terrain|PHEW}, {@spell invisibility|PHEW}, {@spell nondetection|PHEW}, {@spell protection from evil and good|PHEW}, {@spell see invisibility|PHEW}, {@spell stinking cloud|PHEW}"
+									]
+								]
+							}
+						]
+					},
+					{
+						"name": "Hex",
+						"entries": [
+							"As a bonus action, you place a curse on a creature that you can see within 90 feet. For up to 8h, you deal an extra {@dice 1d6} necrotic damage to the target whenever you hit it with an attack. Also, choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability.",
+							"If the target drops to 0 hit points before this effect ends, you can use a bonus action within the next minute to curse a new creature.",
+							"A {@spell remove curse|PHEW} cast on the target ends this effect early.",
+							"You can only use this feature once. You regain all uses of this feature at the end of a short rest."
+						]
+					}
+				],
+				[
+					{
+						"name": "Pact Boon",
+						"entries": [
+							"At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain a {@filter pact boon|optionalfeatures|feature type=pb|source=PHEW} of your choice."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Eldritch Essence",
+						"entries": [
+							"Beginning at 5th level, you can shape eldritch energies into more complex forms.",
+							"Alteratively, when you cast eldritch blast as a warlock cantrip on your turn you can forgo the usual attack roll to instead project a shape of destructive magic from yourself. Each enemy in that area must make a saving throw or suffer as though struck by your eldritch blast, without the normal damage bonus. If they succeed, they suffer half damage.",
+							"You choose one of the following shapes at 5th level, and select another at 7th and 13th level:",
+							{
+								"type": "list",
+								"items": [
+									"Eldritch Beam. 50-feet line (Dexterity save). Creatures receive no benefit from half or three-quarters cover on their saving throw.",
+									"Eldritch Doom. 10-feet radius sphere (Constitution save). This shape centers on a point you can see within 120 feet.",
+									"Eldritch Wave. 15-feet cone (Strength save). A creature that fails its saving throw is pushed 10 feet away."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"name": "Otherworldly Patron feature",
+						"entries": [
+							"At 6th level, you gain a feature granted by your Otherworldly Patron."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Improved Boon",
+						"entries": [
+							"At 7th level, the Pact Boon you chose at 3rd level grants you {@filter additional benefits|optionalfeatures|feature type=ipb|source=PHEW}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Eldritch Storm",
+						"entries": [
+							"Beginning at 9th level, your mastery over eldritch energies grows. When you cast eldritch blast as a warlock cantrip and miss, you can use a bonus action to cast it again at the same target, ignoring the usual restriction against casting two cantrips in a single turn.",
+							"In addition, when you shape your Eldritch Blast, you can spend a use of your Pact Arcanum to increase the damage by {@dice 1d4} per Spell Level, as well as its size:",
+							{
+								"type": "list",
+								"items": [
+									"Eldritch Beam. The line's length increases by 30 feet per Spell Level.",
+									"Eldritch Doom. The sphere's radius increases by 5 feet per Spell Level.",
+									"Eldritch Wave. The cone's size increases by 10 feet per Spell Level."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"name": "Otherworldly Patron feature",
+						"entries": [
+							"At 10th level, you gain a feature granted by your Otherworldly Patron."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Mystic Arcanum (6th level)",
+						"entries": [
+							"At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 6th-level spell from the warlock spell list|spells|level=6|class=Warlock} as this arcanum.",
+							"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.",
+							"At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest."
+						]
+					},
+					{
+						"name": "Refined Boon",
+						"entries": [
+							"At 11th level, your Pact Boon improves again, granting even {@filter more benefits|optionalfeatures|feature type=rpb|source=PHEW}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Mystic Arcanum (7th level)",
+						"entries": [
+							"At 13th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 7th-level spell from the warlock spell list|spells|level=7|class=Warlock} as this arcanum.",
+							"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
+						]
+					}
+				],
+				[
+					{
+						"name": "Otherworldly Patron feature",
+						"entries": [
+							"At 14th level, you gain a feature granted by your Otherworldly Patron."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Mystic Arcanum (8th level)",
+						"entries": [
+							"At 15th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 8th-level spell from the warlock spell list|spells|level=8|class=Warlock} as this arcanum.",
+							"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Mystic Arcanum (9th level)",
+						"entries": [
+							"At 17th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 9th-level spell from the warlock spell list|spells|level=9|class=Warlock} as this arcanum.",
+							"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
+						]
+					}
+				],
+				[
+					{
+						"name": "Superior Boon",
+						"entries": [
+							"At 18th level, your Pact boon receives a final improvement, granting {@filter additional benefitss|optionalfeatures|feature type=rpb|source=PHEW}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Eldritch Master",
+						"entries": [
+							"At 20th level, you can draw on your own latent reserve of mystical power when you can't continue using you patron's strength. You can use your action to regain all your uses of Pact Arcanum. Once you use this feature, you must finish a long rest before you can do so again."
+						]
+					}
+				]
+			],
+			"subclassTitle": "Otherworldly Patron",
+			"subclasses": [
+				{
+					"name": "The Crimson Lord",
+					"subclassFeatures": [
+						[
+							{
+								"name": "The Crimson Lord",
+								"entries": [
+"Some say the Crimson Lord is the first vampire, using avatars to feed his insatiable hunger. Your patron is as ancient as the oldest lineage flowing through the Red River. The blood coursing through the veins of all living beins holds power that few learn to wield, save those who choose the Crimson Lord as a patron. His motivation is largley unknown, though the lust for blood can be felt in all who let him in.",
+{
+										"type": "entries",
+										"name": "Expanded Spell List",
+										"entries": [
+											"The Crimson Lord lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+											{
+												"type": "table",
+												"caption": "Crimson Lord Expanded Spells",
+												"colLabels": [
+													"Spell Level",
+													"Spells"
+												],
+												"colStyles": [
+													"col-3 text-center",
+													"col-9"
+												],
+												"rows": [
+													[
+														"1st",
+														"{@spell inflict wounds|PHEW}, {@spell ray pf sickness|PHEW}"
+													],
+													[
+														"2nd",
+														"{@spell Blindness/deafness|PHEW}, {@spell blur|PHEW}"
+													],
+													[
+														"3rd",
+														"{@spell feign death|PHEW}, {@spell nondetection|PHEW}"
+													],
+													[
+														"4th",
+														"{@spell death ward|PHEW}, {@spell phantasmal killer|PHEW}"
+													],
+													[
+														"5th",
+														"{@spell dominate person|PHEW}, {@spell modify memory|PHEW}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Blood is Power",
+										"entries": [
+											"You are able to replace blood by infusing it with arcane energy that you may use later. At 1st level, as a ritual that takes 1 hour you may sacrifice hit points equal to twice the level of your current Warlock spell slot to gain an additional Warlock spell slot of that level. The amount of extra spell slots you may make is equal to the maximun amount of Warlock spell slots available to you. While you have these additional spell slots your hit point maximum is reduced by an amount equal to the hit points spent. These spell slots last until they are spent or you take a long rest."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Blood Hex,
+										"entries": [
+											"At 6th level you learn the Hex spell if you don't already have it. You can cast this spell without using a Warlock spell slot a number of times equal to your proficiency bonus. Additionally, if you get hit by an attack, you can use your reaction to end Hex and split the damage of that attack in half, you take one half, the creature affected by hex takes the other half."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Blood Siphon",
+										"entries": [
+											"Starting at 10th level, if you have no more than half of your hit points left and you deal damage with a spell or attack, you gain a number of hitpoints equal to the target constitution modifier (minimun of 1)."
+			]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Exsanguination",
+										"entries": [
+											"Beginning at 14th level, when you hit a creature with a Warlock spell that isn't a cantrip, you can sacrifice 5 hit points to deal additional force damage. The damage is 1d10 for the first 5 hit points sacrificed, plus 1d10 for every 5 additional hit points expent, up to a maximum of 5d10"
+			]
+									}
+								]
+							}
+						]
+					],
+					"source": "PHEW",
+					"shortName": "Crimson"
+				},
