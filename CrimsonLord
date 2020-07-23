@@ -18,20 +18,19 @@
 		],
 		"dateAdded": 1578188666,
 		"dateLastModified": 1580933076,
-		"unlisted": true
 	},
 	"subclass": [
 		{
 			"name": "The Crimson Lord",
 			"source": "CrimsonLord",
 			"subclassFeatures": [
-				"The Crimson Lord|Warlock||Crimson Lord|CrimsonLord|1",
-				"Blood is Power|Warlock||Crimson Lord|CrimsonLord|1",
-				"Blood Hex|Warlock||Crimson Lord|CrimsonLord|6",
-				"Blood Siphon|Warlock||Crimson Lord|CrimsonLord|10",
-				"Exsanguination|Warlock||Crimson Lord|CrimsonLord|14"
+				"The Crimson Lord|Warlock||Crimson|CrimsonLord|1",
+				"Blood is Power|Warlock||Crimson|CrimsonLord|1",
+				"Blood Hex|Warlock||Crimson|CrimsonLord|6",
+				"Blood Siphon|Warlock||Crimson|CrimsonLord|10",
+				"Exsanguination|Warlock||Crimson|CrimsonLord|14"
 			],
-			"shortName": "Crimson Lord",
+			"shortName": "Crimson",
 			"spells": [
 				{
 					"expanded": {
@@ -95,7 +94,7 @@
 			"page": 105,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Crimson Lord",
+			"subclassShortName": "Crimson",
 			"subclassSource": "CrimsonLord",
 			"level": 1,
 			"entries": [
@@ -148,7 +147,7 @@
 			"page": 105,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Crimson Lord",
+			"subclassShortName": "Crimson",
 			"subclassSource": "CrimsonLord",
 			"level": 1,
 			"header": 1
@@ -162,7 +161,7 @@
 			"page": 105,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Crimson Lord",
+			"subclassShortName": "Crimson",
 			"subclassSource": "CrimsonLord",
 			"level": 6,
 			"header": 2,
@@ -176,7 +175,7 @@
 			"page": 105,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Crimson Lord",
+			"subclassShortName": "Crimson",
 			"subclassSource": "CrimsonLord",
 			"level": 10,
 			"header": 2,
@@ -190,13 +189,13 @@
 			"page": 105,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Crimson Lord",
+			"subclassShortName": "Crimson",
 			"subclassSource": "CrimsonLord",
 			"level": 14,
 			"header": 2,
 			"entries": [
 				"Beginning at 14th level, when you hit a creature with a Warlock spell that isn't a cantrip, you can sacrifice 5 hit points to deal additional force damage. The damage is 1d10 for the first 5 hit points sacrificed, plus 1d10 for every 5 additional hit points expent, up to a maximum of 5d10"
-			]
+			],
 		}
 	]
 }
