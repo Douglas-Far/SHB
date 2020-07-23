@@ -13,7 +13,7 @@
 															"items":	[
 																			"Once during your turn, as part of an Attack action you take, you can ricochet one ranged weapon attack made with a Palm Pistol or Pistol you're proficient with.  If you do, choose a trajectory for your weapon in a series on straight lines separated by bounces and ending with an attack. Subtract 2 to the attack roll for every bounce (max. number of bounces = proficiency bonus/2) made before it. Cover is calculated based on the last bounce before the attack (although attacking an unseen creature may still impose disadvantage as usual), but the range is calculated by adding together the total travel distance of the weapon, and it cannot exceed the weapon's long range.",
 																			"When you use the Attack action and attack with a Palm Pistol or Pistol, you can use a bonus action to attack with another one you're holding in your off-hand.",
-																			"You can take the reload action even if you don't have a free hand. When you take the reload action, you can reload the Palm Pistol or Pistol you are holding in your off-hand as part of the same action.",
+																			"You can take the reload action even if you don't have a free hand. When you take the reload action, you can reload the Palm Pistol or Pistol you are holding in your off-hand as part of the same action."
 																				]
 													}
 											]
