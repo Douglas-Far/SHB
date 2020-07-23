@@ -24,18 +24,6 @@
 		{
 			"name": "The Crimson Lord",
 			"source": "CrimsonLord",
-			"subclassSpells": [
-				"Inflict Wounds",
-				"Ray of Sickness",
-				"Blur",
-				"Blindness/Deafness",
-				"Feign Death",
-				"Nondetection",
-				"Death Ward",
-				"Phantasmal Killer",
-				"Dominate Person",
-				"Modify Memory"
-			],
 			"subclassFeatures": [
 				"The Crimson Lord|Warlock||Crimson Lord|CL|1",
 				"Blood is Power|Warlock||Crimson Lord|CL|1",
@@ -102,7 +90,7 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Crimson Lord",
+			"name": "The Crimson Lord",
 			"source": "CrimsonLord",
 			"page": 105,
 			"className": "Warlock",
@@ -119,7 +107,7 @@
 						"The Crimson Lord lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
 						{
 							"type": "table",
-							"caption": "Great Old One Expanded Spells",
+							"caption": "The Crimson Lord Expanded Spells",
 							"colLabels": [
 								"Spell Level",
 								"Spells"
@@ -153,18 +141,9 @@
 						}
 					]
 				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Blood is Power|Warlock||Crimson Lord|CL|1"
-				}
-			]
-		},
 		{
 			"type": "entries",
 			"name": "Blood is Power",
-			"entries": [
-				"You are able to replace blood by infusing it with arcane energy that you may use later. At 1st level, as a ritual that takes 1 hour you may sacrifice hit points equal to twice the level of your current Warlock spell slot to gain an additional Warlock spell slot of that level. The amount of extra spell slots you may make is equal to the maximun amount of Warlock spell slots available to you. While you have these additional spell slots your hit point maximum is reduced by an amount equal to the hit points spent. These spell slots last until they are spent or you take a long rest."
-			],
 			"source": "CrimsonLord",
 			"page": 105,
 			"className": "Warlock",
@@ -173,6 +152,9 @@
 			"subclassSource": "CrimsonLord",
 			"level": 1,
 			"header": 1
+			"entries": [
+				"You are able to replace blood by infusing it with arcane energy that you may use later. At 1st level, as a ritual that takes 1 hour you may sacrifice hit points equal to twice the level of your current Warlock spell slot to gain an additional Warlock spell slot of that level. The amount of extra spell slots you may make is equal to the maximun amount of Warlock spell slots available to you. While you have these additional spell slots your hit point maximum is reduced by an amount equal to the hit points spent. These spell slots last until they are spent or you take a long rest."
+			]
 		},
 		{
 			"name": "Blood Hex",
