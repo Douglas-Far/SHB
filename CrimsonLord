@@ -103,12 +103,12 @@
 	"subclassFeature": [
 		{
 			"name": "Crimson Lord",
-			"source": "CL",
+			"source": "CrimsonLord",
 			"page": 105,
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Crimson Lord",
-			"subclassSource": "CL",
+			"subclassSource": "CrimsonLord",
 			"level": 1,
 			"entries": [
 				"Some say the Crimson Lord is the first vampire, using avatars to feed his insatiable hunger. Your patron is as ancient as the oldest lineage flowing through the Red River. The blood coursing through the veins of all living beins holds power that few learn to wield, save those who choose the Crimson Lord as a patron. His motivation is largley unknown, though the lust for blood can be felt in all who let him in.",
@@ -170,7 +170,7 @@
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Crimson Lord",
-			"subclassSource": "CL",
+			"subclassSource": "CrimsonLord",
 			"level": 1,
 			"header": 1
 		},
@@ -180,8 +180,8 @@
 			"page": 105,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Great Cold",
-			"subclassSource": "TGCP",
+			"subclassShortName": "Crimson Lord",
+			"subclassSource": "CrimsonLord",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -194,8 +194,8 @@
 			"page": 105,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "CrimsonLord",
-			"subclassSource": "CL",
+			"subclassShortName": "Crimson Lord",
+			"subclassSource": "CrimsonLord",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -204,12 +204,12 @@
 		},
 		{
 			"name": "Exsanguination",
-			"source": "TGCP",
+			"source": "CrimsonLord",
 			"page": 105,
 			"className": "Warlock",
 			"classSource": "PHB",
-			"subclassShortName": "Great Cold",
-			"subclassSource": "TGCP",
+			"subclassShortName": "Crimson Lord",
+			"subclassSource": "CrimsonLord",
 			"level": 14,
 			"header": 2,
 			"entries": [
