@@ -24,7 +24,7 @@
 			"Oath of the Planes|Paladin||Planes|OathOfThePlanes|3",
 			"Aura of Dimensionality|Paladin||Planes|OathOfThePlanes|7",
 			"Gate Guardian|Paladin||Planes|OathOfThePlanes|15",
-			"Plane Shift|Paladin||Planes|OathOfThePlanes|20"
+			"Phase Shift|Paladin||Planes|OathOfThePlanes|20"
 		],
 		"shortName": "Planes",
 		"spells": [{
