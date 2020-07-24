@@ -20,9 +20,10 @@
 		{
 			"name": "School of Infusion",
 			"subclassFeatures": [
+				"School Of Infusion|Wizard||Infusion|SchoolOfInfusion|2",
 				"Firearm Savant|Wizard||Infusion|SchoolOfInfusion|2",
 				"Cantrip Shot|Wizard||Infusion|SchoolOfInfusion|2",
-        "Extra Attack|Wizard||Infusion|SchoolOfInfusion|6",       
+        			"Extra Attack|Wizard||Infusion|SchoolOfInfusion|6",       
 				"Imbued Shot|Wizard||Infusion|SchoolOfInfusion|10",
 				"Improved Shot|Wizard||Infusion|SchoolOfInfusion|14"
 			],
