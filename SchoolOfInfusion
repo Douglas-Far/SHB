@@ -1,0 +1,130 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SchoolOfInfusion",
+				"abbreviation": "SoI",
+				"full": "School of Infusion",
+				"authors": [
+					"Douglas-Far"
+				],
+				"version": "1.0",
+				"url": "https://half-cover.com/homebrew/archetypes/school-of-infusion/",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1591087486,
+		"dateLastModified": 1591688428
+	},
+	"subclass": [
+		{
+			"name": "School of Infusion",
+			"subclassFeatures": [
+				"Firearm Savant|Wizard||Infusion|SchoolOfInfusion|2",
+				"Cantrip Shot|Wizard||Infusion|SchoolOfInfusion|2",
+        "Extra Attack|Wizard||Infusion|SchoolOfInfusion|6",       
+				"Imbued Shot|Wizard||Infusion|SchoolOfInfusion|10",
+				"Improved Shot|Wizard||Infusion|SchoolOfInfusion|14"
+			],
+			"source": "SchoolOfInfusion",
+			"shortName": "Infusion",
+			"className": "Wizard",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "School of Infusion",
+			"source": "SchoolOfInfusion",
+			"page": 112,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Infusion",
+			"subclassSource": "SchoolOfInfusion",
+			"level": 2,
+			"entries": [
+				"Wizards who have studied the school of infusion are strong believers that while magic holds great strength and power, it can be improved upon. They believe that it is strongest when it has been imbued into other objects as a medium to deliver the impact of the spell. And what object can deliver more impact than a firearm?",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Firearm Savant|Wizard||Infusion|SchoolOfInfusion|2"
+				},
+        {
+          "type": "refSubclassFeature",
+					"subclassFeature": "Cantrip Shot|Wizard||Infusion|SchoolOfInfusion|2"
+        }
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Firearm Savant",
+			"entries": [
+				"Starting at 2nd level, your studies concluded that a firearm is the most suited candidate for your infusions. You gain proficiency with firearms."
+			],
+			"source": "SchoolOfInfusion",
+			"page": 112,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Infusion",
+			"subclassSource": "SchoolOfInfusion",
+			"level": 2,
+			"header": 1
+		},
+    {
+			"type": "entries",
+			"name": "Cantrip Shot",
+			"entries": [
+				"When you choose this school at 2nd level, you gain the ability to enhance your ammunition by strengthening them with magic. When you make a ranged weapon attack you can replace the damage and effect of the ammunition with one of your damaging cantrips. If the cantrip would force a saving throw, that saving throw is made with disadvantage. You can do this only once per turn."
+		],
+      "source": "SchoolOfInfusion",
+			"page": 112,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Infusion",
+			"subclassSource": "SchoolOfInfusion",
+			"level": 2,
+			"header": 1
+    },  
+    {
+			"name": "Extra Attack",
+			"source": "SchoolOfInfusion",
+			"page": 112,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Infusion",
+			"subclassSource": "SchoolOfInfusion",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+			]
+		},
+		{
+			"name": "Imbued Shot",
+			"source": "SchoolOfInfusion",
+			"page": 112,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Infusion",
+			"subclassSource": "SchoolOfInfusion",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, you gain the ability to channel your spells and magical power into ammunition. Whenever you make a ranged weapon attack, you can cast a spell you have prepared into the ammunition, but before you make the attack roll. The spell casted into the ammunition must have a casting time of 1 action, and it must be able to either target one creature other than you, a point in the air, or has an area of effect originating from yourself. On a hit, the spell triggers against the target. If the spell is an area of effect it triggers with the target at the center. If the spell normally originates from the caster, the target is the point of origination and the area of effect continues in the direction of the ammunition. The spells effect triggers before the damage of the ammunition is applied to the target. If the the spell effect requires a dexterity saving throw, the target has disadvantage on the save."
+			]
+		},
+		{
+			"name": "Improved Shot",
+			"source": "SchoolOfInfusion",
+			"page": 112,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Infusion",
+			"subclassSource": "SchoolOfInfusion",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, when you cast a spell into a piece of ammunition with Imbued Shot, you can treat the effect of that spell as being one spell level higher then you casted it. You can use this feature once per long rest."
+			]
+		}
+	]
+}
