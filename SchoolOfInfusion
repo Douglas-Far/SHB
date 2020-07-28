@@ -20,7 +20,7 @@
 		{
 			"name": "School of Infusion",
 			"subclassFeatures": [
-				"School Of Infusion|Wizard||Infusion|SchoolOfInfusion|2",
+				"School of Infusion|Wizard||Infusion|SchoolOfInfusion|2",
 				"Firearm Savant|Wizard||Infusion|SchoolOfInfusion|2",
 				"Cantrip Shot|Wizard||Infusion|SchoolOfInfusion|2",
         			"Extra Attack|Wizard||Infusion|SchoolOfInfusion|6",       
@@ -59,7 +59,8 @@
 			"type": "entries",
 			"name": "Firearm Savant",
 			"entries": [
-				"Starting at 2nd level, your studies concluded that a firearm is the most suited candidate for your infusions. You gain proficiency with firearms."
+				"Starting at 2nd level, your studies concluded that a firearm is the most suited candidate for your infusions. You gain proficiency with firearms.",
+				"Additionally, you learn the Mending cantrip if you don't already have it. You can use the spell on a broken firearm to fix it. You can only repair a firearm this way with the mending cantrip if you have this feature."
 			],
 			"source": "SchoolOfInfusion",
 			"page": 112,
@@ -96,7 +97,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+				"Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. You can forgo one of your attacks to cast the mending cantrip."
 			]
 		},
 		{
