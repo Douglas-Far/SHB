@@ -1,0 +1,167 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nobushi",
+				"abbreviation": "NS",
+				"full": "The Nobushi Archetype",
+				"authors": [
+					"u/Lyron-Baktos"
+				],
+				"convertedBy": [
+					"Douglas-Far"
+				],
+				"version": "1.3",
+				"url": "https://homebrewery.naturalcrit.com/share/S137Zxdg7",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1537874753,
+		"dateLastModified": 1537874753
+	},
+	"subclass": [
+		{
+			"name": "Nobushi",
+			"subclassFeatures": [
+				"Nobushi|Fighter||Nobushi|Nobushi|3",
+				"Feather Step|Fighter||Nobushi|Nobushi|7",
+				"Whirling Defense|Fighter||Nobushi|Nobushi|10",
+				"Improved Battlefield Control|Fighter||Nobushi|Nobushi|15",
+				"Improved Whirling Defense|Fighter||Nobushi|Nobushi|18"
+			],
+			"source": "Nobushi",
+			"shortName": "Nobushi",
+			"className": "Fighter",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Nobushi",
+			"source": "Nobushi",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Nobushi",
+			"subclassSource": "Nobushi",
+			"level": 3,
+			"entries": [
+				"Fighters of this archetype are well know for their impressive handling of two-handed weaponry. They flow through the battlefield making their weapons seem weightless as they whirl around, parrying blows and attacking enemies in a wide circle around them.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Restriction: Females Only|Fighter||Nobushi|Nobushi|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Naginatajutsu|Fighter||Nobushi|Nobushi|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Battlefield Control|Fighter||Nobushi|Nobushi|3"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Restriction: Females Only",
+			"entries": [
+				"Due to the amount of grace and agility required to make the movements of this martial archetype, only the most dexterous can become a Nobushi, wich can only be found in women. Normally, nobushis can only be found in Sakura in The Home of the Spirits. The wifes of swordsmen undergo a rigorous training to be able to protect their villages from monsters attacks and ensure order, while the men go outside to complete missions delivered by the chief."
+			],
+			"source": "Nobushi",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Nobushi",
+			"subclassSource": "Nobushi",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Naginatajutsu",
+			"entries": [
+				"When you choose this archetype at 3rd level, your mastery of two-handed weaponry makes all weapons with the two-handed property count as finesse weapons for you."
+			],
+			"source": "Nobushi",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Nobushi",
+			"subclassSource": "Nobushi",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Battlefield Control",
+			"entries": [
+				"Starting at 3rd level, you learn to watch the enemies around you for openings. You may use two reactions in a round, instead of one. The number of reactions increases to three at level 15. You may only cast one spell that uses a reaction in a turn."
+			],
+			"source": "Nobushi",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Nobushi",
+			"subclassSource": "Nobushi",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Feather Step",
+			"source": "MercerGunslinger",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Gunslinger",
+			"subclassSource": "MercerGunslinger",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level you walk with a quiet catlike grace that is hard to trace. You gain proficiency in Stealth, if you already have proficiency in Stealth you may double your proficiency bonus when making Stealth checks."
+			]
+		},
+		{
+			"name": "Whirling Dance",
+			"source": "Nobushi",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Nobushi",
+			"subclassSource": "Nobushi",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, your control over your weapons and body allows you to use your movement to make your attacks faster and dodge or parry enemy attacks aimed at you with more ease. If you have moved at least 20 feet in your turn you gain a +1 bonus to your AC and attack rolls until you end a turn having moved less than 20 feet."
+			]
+		},
+		{
+			"name": "Improved Battlefield Control",
+			"source": "Nobushi",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Nobushi",
+			"subclassSource": "Nobushi",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, you have learned to wait for your enemy to offer you an opening and then make use of it with swift blows, if you used the Attack action while Whirling Dance is active and you didn't use all attacks or your bonus action in your turn you may store said attacks. When you make an opportunity attack, you make additional attacks equal to the amount of attacks you stored on your previous turn. You lose all your stored attacks at the start of your next turn."
+				"Additionaly, you can use your Action Surge outside of your turns. Using your Action Surge in this way gives you a whole new turn."
+			]
+		},
+		{
+			"name": "Improved Whirling Defense",
+			"source": "Nobushi",
+			"page": 70,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Nobushi",
+			"subclassSource": "Nobushi",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, your Whirling Defense helps you deflect enemy blows with a slight touch of your weapon. You now only need to move 10 feet to active this feature and you gain a +2 to your AC instead of a +1. If an enemy attacks you or a another creature from within your reach while you are using your Whirling Defense you may spend a reaction before the attack roll to impose disadvantage on the attack roll and give your ally a bonus to its AC equal to your Whirlind Defense bonus for that attack."
+			]
+		}
+	]
+}
