@@ -53,7 +53,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Naginatajutsu|Fighter||Nobushi|Nobushi|3"
+					"subclassFeature": "Protector of our Homes|Fighter||Nobushi|Nobushi|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -65,7 +65,7 @@
 			"type": "entries",
 			"name": "Restriction: Females Only",
 			"entries": [
-				"Due to the amount of grace and agility required to make the movements of this martial archetype, only the most dexterous can become a Nobushi, wich can only be found in women. Normally, nobushis can only be found in Sakura in The Home of the Spirits. The wifes of swordsmen undergo a rigorous training to be able to protect their villages from monsters attacks and ensure order, while the men go outside to complete missions delivered by the chief."
+				"Due to the amount of grace and agility required to make the movements of this martial archetype, only the most dexterous can become a Nobushi, wich can only be found in women. Normally, nobushis can only be found in Sakura in The Home of the Spirits. The wifes of swordsmen undergo a rigorous training to be able to protect their villages from monsters attacks and ensure order, while the men go outside to complete missions delivered by the chief. However, there are women who left their home in Sakura, and are willing to teach the fighting style of the Nobushis to young girls."
 			],
 			"source": "Nobushi",
 			"page": 70,
@@ -78,9 +78,9 @@
 		},
 		{
 			"type": "entries",
-			"name": "Naginatajutsu",
+			"name": "Protector of our Homes",
 			"entries": [
-				"When you choose this archetype at 3rd level, your mastery of two-handed weaponry makes all weapons with the two-handed property count as finesse weapons for you."
+				"When you choose this archetype at 3rd level, before learning how to fight like a Nobushi, you must think like one. You delve into the culture of the people of Sakura and understand what's the role of the women in their village. You agreeing with this or not is unimportant. You gain proficiency in the Performance and Perception skill."
 			],
 			"source": "Nobushi",
 			"page": 70,
@@ -108,12 +108,12 @@
 		},
 		{
 			"name": "Feather Step",
-			"source": "MercerGunslinger",
+			"source": "Nobushi",
 			"page": 70,
 			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Gunslinger",
-			"subclassSource": "MercerGunslinger",
+			"subclassShortName": "Nobushi",
+			"subclassSource": "Nobushi",
 			"level": 7,
 			"header": 2,
 			"entries": [
