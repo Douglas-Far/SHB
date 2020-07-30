@@ -27,7 +27,7 @@
 				"Practiced Performer|Fighter||Dancer|WarDancer|7",
 				"Gracious Step|Fighter||Dancer|WarDancer|10",
 				"Thrilling Finale|Fighter||Dancerr|WarDancer|15",
-				"Quick Recovery|Fighter||Dancer|WarDancer|18",
+				"Quick Recovery|Fighter||Dancer|WarDancer|18"
 			],
 			"source": "WarDancer",
 			"shortName": "Dancer",
@@ -57,7 +57,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "War Dancer: Dance Movements"|Fighter||Dancer|WarDancer|3"
+					"subclassFeature": "War Dancer: Dance Movements|Fighter||Dancer|WarDancer|3"
 				}
 			]
 		},
@@ -68,8 +68,8 @@
 				"When you choose this archetype at 3rd level, you learn to move across the battlefield with grace and artistry, performing a dance. As you progress through the War Dancer archetype, you will learn more movements to your dance.",
         "The dance is performed by first setting your initial stance, using a bonus action to do so. The dance will last until you complete three movements, or until 30 seconds have passed.",
         "Your dance must always begin with your initial stance, followed by your first, then second movement, and finished by your finale.",
-        "Because of how tiring the dance can be, you may only perform it a number of time equal to your proficiency bonus between short rests."
-        "At 3rd level, you learn a starting stance and your first movement of your dance."
+        "Because of how tiring the dance can be, you may only perform it a number of time equal to your proficiency bonus between short rests.",
+        "At 3rd level, you learn a starting stance and your first movement of your dance.",
         {
 					"type": "entries",
 					"entries": [
