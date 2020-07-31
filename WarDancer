@@ -83,8 +83,11 @@
 									"name": "Dance Movement",
 									"attributes": [
 										"dex",
-                    "str"
+                    								"str"
 									]
+								}
+								]
+							}
 			],
 			"source": "WarDancer",
 			"page": 70,
@@ -259,7 +262,9 @@
 							"entries": [
 								"You strike your opponents with savage speed and ferocity. Using an action, you double the amount of attacks you can make in your turn."
            
-      ],
+      								   ]
+						}
+						    ],
 			"source": "WarDancer",
 			"page": 70,
 			"className": "Fighter",
@@ -268,7 +273,7 @@
 			"subclassSource": "WarDancer",
 			"level": 3,
 			"header": 1
-		},
+				},
 		{
 			"name": "Practiced Performer",
 			"source": "WarDancer",
@@ -325,6 +330,10 @@
 				"At 18th level, you have developed your skills to the point where your battle dance has become a practiced skill. When you roll for initiative and you don't have more uses of your Battle Dance, your regain one use of it.",
         "You must take a long rest before using this feature again."
 			]
+		}
+	]
+}
+]
 		}
 	]
 }
