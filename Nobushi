@@ -24,7 +24,7 @@
 			"name": "Nobushi",
 			"subclassFeatures": [
 				"Nobushi|Fighter||Nobushi|Nobushi|3",
-				"Feather Step|Fighter||Nobushi|Nobushi|7",
+				"Perfect Balance|Fighter||Nobushi|Nobushi|7",
 				"Whirling Defense|Fighter||Nobushi|Nobushi|10",
 				"Improved Battlefield Control|Fighter||Nobushi|Nobushi|15",
 				"Improved Whirling Defense|Fighter||Nobushi|Nobushi|18"
@@ -46,7 +46,7 @@
 			"subclassSource": "Nobushi",
 			"level": 3,
 			"entries": [
-				"Fighters of this archetype are well know for their impressive handling of two-handed weaponry. They flow through the battlefield making their weapons seem weightless as they whirl around, parrying blows and attacking enemies in a wide circle around them.",
+				"Nobushis are known for being protective fighters who ensure the wellbeing of their allies at all cost. They flow through the battlefield making their weapons seem weightless as they whirl around, parrying blows and attacking enemies in a wide circle around them.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Restriction: Females Only|Fighter||Nobushi|Nobushi|3"
@@ -107,7 +107,7 @@
 			"header": 1
 		},
 		{
-			"name": "Feather Step",
+			"name": "Perfect Balance",
 			"source": "Nobushi",
 			"page": 70,
 			"className": "Fighter",
@@ -117,7 +117,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"At 7th level you walk with a quiet catlike grace that is hard to trace. You gain proficiency in Stealth, if you already have proficiency in Stealth you may double your proficiency bonus when making Stealth checks."
+				"At 7th level you learn to move in such a way that you are able to distribute the weight of your body and equipment equally, allowing you to move quietly through the battlefield. You gain proficiency in Stealth, if you already have proficiency in Stealth you may double your proficiency bonus when making Stealth checks. Additionally, you can use Strength instead of Dexterity for your Stealth checks, and heavy armor doesn't impose disadvantage anymore in those checks."
 			]
 		},
 		{
