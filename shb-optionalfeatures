@@ -13,6 +13,7 @@
 			"WDM": "War Dancer Movement"
 		}
 	},
+	"optionalfeature": [
   {
 			"name": "The Vigilant Mountain",
 			"entries": [
@@ -111,6 +112,6 @@
               ],
 			"featureType":"WDM",
 			"source":"SHB"
-		},
+		}
 	]
 }
