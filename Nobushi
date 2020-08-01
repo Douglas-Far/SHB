@@ -95,7 +95,9 @@
 			"type": "entries",
 			"name": "Battlefield Control",
 			"entries": [
-				"Starting at 3rd level, you learn to watch the enemies around you for openings. You may use two reactions in a round, instead of one. The number of reactions increases to three at level 15. You may only cast one spell that uses a reaction in a turn."
+				"Starting at 3rd level, you learn to watch the enemies around you for openings. You may use two reactions in a round, instead of one. The number of reactions increases to three at level 15. You may only cast one spell that uses a reaction in a turn.",
+				"Additionally, unwilling movements also provoke opportunity attacks.",
+				"Finally, you can make opportunity attacks with ranged weapons. You are considered to have a reach of 30 feet when using ranged weapons for the purpose of making opportunity attacks."
 			],
 			"source": "Nobushi",
 			"page": 70,
