@@ -1,0 +1,132 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Mousefolk",
+			"abbreviation": "Mousefolk",
+			"full": "Mousefolk",
+			"authors": [
+				"Mousefolk, unknown"
+			],
+			"convertedBy": [
+				"p4535992"
+			],
+			"version": "2020.04.21",
+			"url": "https://dm-clockwork-dragon.tumblr.com/PublishedWork",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 1587495146,
+		"dateLastModified": 1587495146
+	},
+	"race": [{
+		"name": "Mousefolk",
+		"source": "Mousefolk",
+		"size": "S",
+		"speed": 25,
+		"ability": [{
+			"dex": 2
+		}],
+		"entries": [{
+				"name": "Age",
+				"type": "entries",
+				"entries": [
+					"A Mousefolk reaches adulthood at the age of 5 and lives to be about 40 years old."
+				]
+			},
+			{
+				"name": "Alignment",
+				"type": "entries",
+				"entries": [
+					"Most Mousefolk are neutral, and tend towards good. They try to keep the conflicts of the other races at arm's length, but display remarkable ferocity when their friends, families, or communities are threatened. A reverence for nature and life is close to the heart of Mousefolk, and they are loath to take a life if it can be avoided. They prefer to live quiet and unassuming lives, giving honest work for honest pay."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Size",
+				"entries": [
+					"Mousefolk grow between 2 and 2 1/2 feet tall and weigh about 25 pounds. Your size is Small."
+				]
+			},
+			{
+				"name": "Speed",
+				"entries": [
+					"Your base walking speed is 25 feet."
+				],
+				"type": "entries"
+			},
+			{
+				"name": "Keen Senses",
+				"entries": [
+					"You have proficiency in the Perception skill."
+				],
+				"type": "entries"
+			},
+			{
+				"name": "Echolocation",
+				"entries": [
+					"You have proficiency with the rapier, shortsword and shortbow."
+				],
+				"type": "entries"
+			},
+			{
+				"name": "Nimble Dodge",
+				"entries": [
+					"When attacked by an Attack of Opportunity, you may use your reaction to impose disadvantage on that attack."
+				],
+				"type": "entries"
+			},
+			{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and Squeak Speak."
+				],
+				"type": "entries"
+			}
+		],
+		"subraces": [{
+				"name": "Softpaw",
+				"ability": [{
+					"int": 1
+				}],
+				"entries": [{
+						"name": "Artistry",
+						"entries": [
+							"You gain proficiency with one type of artisan's tools or one musical instrument"
+						],
+						"type": "entries"
+					},
+					{
+						"name": "Squirm",
+						"entries": [
+							"You can move through tiny sized spaces as if you were tiny size."
+						],
+						"type": "entries"
+					}
+				]
+			},
+			{
+				"name": "Meadowgard",
+				"ability": [{
+					"wis": 1
+				}],
+				"entries": [{
+						"name": "Brave",
+						"entries": [
+							"You have advantage on saving throws against being frightened."
+						],
+						"type": "entries"
+					},
+					{
+						"name": "Speak With Small Beasts",
+						"entries": [
+							"Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts."
+						]
+					}
+				]
+			}
+		],
+		"languageProficiencies": [{
+			"common": true,
+			"Squeak": true
+		}]
+	}]
+}
